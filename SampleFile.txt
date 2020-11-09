@@ -1,0 +1,6 @@
+Section 30.2: Reading a file line-by-line
+The simplest way to iterate over a file line-by-line:
+readline() allows for more granular control over line-by-line iteration. The example below is equivalent to the one
+above:
+Using the for loop iterator and readline() together is considered bad practice.
+More commonly, the readlines() method is used to store an iterable collection of the file's lines:
